@@ -43,7 +43,7 @@ function Counter() {
 				<button
 					className="counter-button"
 					onClick={() => {
-						dispatch(change_color);
+						change_color();
 					}}
 				>
 					changeColor
